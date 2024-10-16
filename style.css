@@ -1,0 +1,91 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar,.nav-content{
+    margin-left: 80px;}
+
+.nav-container span {
+    color:orangered;
+    /* display: flex; */
+}
+
+
+
+.nav-bar li a{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-bar li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+
+}
+/* now make the nav bar in one line */
+
+
+.nav-bar ,.nav-bar ul{
+    display: flex;
+}
+.nav-bar{
+    justify-content: space-between;
+    
+}
+
+.primary-button{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding:20px 30px;
+    margin-right: 40px;
+    color: white;
+}
+
+.nav-container{
+    background-color: #FFF8F3;
+    background-image: url(./images/header_bg.png),url(./images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right,left;
+    background-size: contain;
+    /* ami chaci eta arektu choto hove arektu margin hobe */
+}
+    
+.nav-content{
+    display: flex;
+}
+.nav-content,.nav-bar{
+    margin: 0 120px;
+}
+
+.about-infocontainer{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    
+}
+.about-infocontainer .about-info{
+
+    margin-right: 20px;
+}
+.about-info p{
+margin-top: 40px;
+margin-bottom: 0px;
+}
+.about-info h4{
+    margin-top: 0;
+}
+
+.main-about-me-container{
+    background-color: #FFF8F3;
+    margin:80px 150px;
+    text-align: center;
+    padding:140px 60px ;
+}
+.adding-border{
+    border: 1px solid #00000050;
+    background-color: white;
+}
+/* finished of about me section */
