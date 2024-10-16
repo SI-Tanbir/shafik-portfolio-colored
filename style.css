@@ -89,3 +89,94 @@ margin-bottom: 0px;
     background-color: white;
 }
 /* finished of about me section */
+
+
+/*starting style of what i do content */
+
+.what-i-do-content{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 140px;
+}
+.whai-i-do-icons-container{
+    display: flex;
+    padding: 130px;
+}
+.whai-i-do-icons{
+    padding-left: 20px;
+    padding-top: 20px;
+    
+    text-align: left;
+    background-color: #e45b1612;
+    margin: 10px;
+}
+
+/*starting of summary of resume */
+
+.resume-container{
+    display: flex;
+}
+.what-i-do-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.resume-item{
+    padding-left: 30px;
+
+}
+
+.resume-colum-title{
+    font-size: 30px;
+    padding-left: 30px;
+}
+.download-btn{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding:20px 30px;
+    /* margin-right: 40px; */
+    /* color: white; */
+    text-decoration: none;
+    
+}
+.download-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.btn-allainment{
+    /* justify-content: center;
+     */
+     padding-left: 600px;
+}
+
+.connet-container{
+    display: flex;
+    background-color: #FFF8F3;
+
+}
+.left-side-connect{
+    padding:40px 60px
+}
+.left-side-connect{
+    padding-right: 80px;
+}
+
+.submit-button{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding:10px 20px;
+}
+.right-side-connet{
+    display: flex;
+    flex-direction:column;
+    padding: 40px 60px;
+    gap: 10px;
+}
+.right-side-connet >*{
+    /* width: 100%; */
+    padding:10px;
+}
