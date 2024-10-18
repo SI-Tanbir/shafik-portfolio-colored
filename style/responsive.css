@@ -1,0 +1,98 @@
+
+
+
+/* responsive for small device */
+@media screen and (max-width:640px) 
+{
+
+    .connect-form{
+        flex-direction: column;
+        gap:0px
+        
+        
+    }
+    .right-div{
+        padding: 1rem;
+        
+        
+    }
+    .resume-contaner{
+        flex-direction: column;
+        
+    }
+    .icon-main-container{
+        flex-direction:column;
+    }
+    .about-section{
+        padding:2rem
+    }
+    
+    
+    .banner,.info-container{
+        flex-direction: column;
+    }
+
+
+    nav{
+        display: none;
+    }
+    .shafik-image{
+        width: 100%;
+        margin: 0%;
+        margin-right: 13vmin;
+      
+    }
+    
+
+    .right-div input[type="email"], .right-div input[type="text"], .right-div textarea {
+        width: 80%;
+       
+    }
+    .about-section{
+        margin: 10px 0px;
+    }
+}
+
+/* mediam device */
+@media screen and (min-width:641px) and (max-width:1280px){
+    
+    .banner-title, .banner-greting, .btn-primary, .nav-heading, .banner-writing {
+        margin-left: 15vmin;
+    }
+
+
+    
+
+    .connect-form{
+        flex-direction: column;
+        gap:0px 
+
+    }
+
+    .right-div{
+        padding: 1rem;
+    }
+        
+    .resume-contaner{
+        flex-direction: column;
+    }
+
+
+    .icon-main-container{
+        flex-direction:column;}
+
+    .right-div input[type="email"], .right-div input[type="text"], .right-div textarea {
+            width: 80%;
+           
+        }
+
+}
+
+/* to text each div specifically it good ideal to hide other part of code */
+
+.hide{
+    display:none;
+}
+
+
+

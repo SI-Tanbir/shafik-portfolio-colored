@@ -1,0 +1,227 @@
+
+/* navigation var style */
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+   
+}
+/* common shared styles */
+
+   
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900 */
+
+/* .playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+ body{
+    margin:0
+ }
+/* body{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+.nav-heading{
+    font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 40px;
+ 
+}
+.nav-heading span{
+   /* color: */
+   /* rgb(244, 86, 0); */
+}
+nav >ul{
+    display: flex;
+    align-items:center;
+    
+}
+nav >ul >li{
+    margin-right: 50px;
+    list-style: none;
+    
+}
+nav a{
+    text-decoration: none;
+    color:rgb(99, 98, 98)
+}
+
+/* primary buttion style */
+.btn-primary>a{
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-primary,.btn-primary1{
+    padding:8px 15px;
+    background-color: orangered;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+.btn-primary:hover,.btn-primary>a:hover{
+    background-color: blueviolet;
+    text-decoration: underline;
+
+}
+body{
+    color:white
+}
+/* adding bg color  */
+.header{
+    background-color: #422f22;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:60%;
+}
+.banner{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+/* allain the written content */
+.banner-title , .banner-greting,.btn-primary,.nav-heading,.banner-writing{
+    margin-left: 100px;
+
+}
+.banner-greting{
+    font-size: 40px;
+    margin-bottom: -30px;
+}
+.banner-title{
+    font-size: 50px;
+    margin-bottom: 0px;
+    /* margin-bottom: 0; */
+/*adding margin to my image to look cool*/
+}
+.shafik-image{
+    margin-right: 5%;
+}
+
+.about-section{
+    padding: 150px;
+    background-color: #422f22;
+    text-align: center;
+    margin:130px 0px
+}
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.info-container{
+    display:flex;
+    justify-content: space-around;
+}
+.info-title{
+    margin:auto ;
+    margin-top: 30px;
+}
+.info-description{
+    margin:0;
+}
+
+/*starting of what i do style*/
+.what-i-do-container{
+    text-align: center;
+}
+.icon-main-container{
+     display: flex;
+    
+    
+     
+
+
+     
+} 
+
+
+.icon-container{
+    margin:10px;
+    background-color:#422f22;
+    padding: 20px;
+}
+
+.what-i-do-paragraph{
+    margin:0 10%;
+    margin-bottom: 2%;
+}
+
+/* RESume contain style*/
+
+
+
+
+.resume-contaner{
+    display: flex;
+}
+.resume-heading{
+    text-align: center;
+    margin-top:40px;
+    font-size: 30px;
+}
+.resume-coll{
+    margin:10px
+}
+
+#downloadcv{
+    /* text-decoration: none;
+     */
+     text-align: center;
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
+.connect-form{
+    display: flex;
+}
+.connect-form{
+    background-color: #422f22;
+    gap:400px
+}
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.left-div{
+    /* margin-top: 50px; */
+    /* margin-left: 40px; */
+    text-align: left;
+    padding: 60px;
+    padding-left: 40px;
+}
+
+.right-div{
+    margin-right: 10%;
+}
+.right-div input[type="email"] ,.right-div input[type="text"],.right-div textarea{
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 50px;
+    margin-bottom: 8px;
+
+}
+ #submitbtn{
+    padding:12px 20px;
+    background-color: orangered;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    /* margin-left: 200px; */
+    margin-top: 10px;
+    align-items: left;
+
+}
